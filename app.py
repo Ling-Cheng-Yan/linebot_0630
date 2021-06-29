@@ -10,7 +10,6 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
 )
 
-import googletrans
 
 app = Flask(__name__)
 
