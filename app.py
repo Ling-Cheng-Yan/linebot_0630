@@ -9,7 +9,8 @@ from linebot.exceptions import (
 from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage,
 )
-from googletrans import Translator
+
+import googletrans
 
 app = Flask(__name__)
 
