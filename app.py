@@ -40,8 +40,8 @@ def callback():
 def handle_message(event):
     msg = event.message.text
     sticker_message = StickerSendMessage(
-    package_id='1',
-    sticker_id='1')
+        package_id='1',
+        sticker_id='1')
 
     line_bot_api.reply_message(
         event.reply_token,
