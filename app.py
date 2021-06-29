@@ -6,7 +6,8 @@ from linebot import (
 from linebot.exceptions import (
     InvalidSignatureError
 )
-import googletrans
+
+from googletrans import Translator
 
 from linebot.models import *
 
