@@ -11,6 +11,8 @@ from linebot.models import (
 )
 
 
+from googletrans import Translator
+
 app = Flask(__name__)
 
 line_bot_api = LineBotApi('G0RKQaSPIfgz5nGrBfAH+2ofJ8MlIYmwFTNAMyRywRNBn4bhbYiQKtafWBxdc7F9OV6ECxZT8hobRcGoFDMDSZYMoCXNxyuQq7ZYIK8eRce0A0i5suwOw7Ai8W/SLlBMN33ne97Za1sM0YQEDrzOAAdB04t89/1O/w1cDnyilFU=')
