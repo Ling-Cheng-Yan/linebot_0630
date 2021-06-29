@@ -6,9 +6,11 @@ from linebot import (
 from linebot.exceptions import (
     InvalidSignatureError
 )
+from googletrans import Translator
+
 from linebot.models import *
 
-from googletrans import Translator
+
 
 app = Flask(__name__)
 
